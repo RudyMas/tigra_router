@@ -13,8 +13,11 @@
   ],
   "minimum-stability": "stable",
   "require": {
-    "php": ">= 8.1",
+    "php": ">= 7.4",
     "mobiledetect/mobiledetectlib": "^2.8.39"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.6.2"
   },
   "autoload": {
     "psr-4": {
