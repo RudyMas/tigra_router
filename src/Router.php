@@ -1,6 +1,6 @@
 <?php
 
-namespace EasyMVC;
+namespace Tigra;
 
 use Exception;
 use JetBrains\PhpStorm\NoReturn;
@@ -13,7 +13,7 @@ use Mobile_Detect;
  * @copyright   2022, rmsoft.be. (http://www.rmsoft.be/)
  * @license     https://opensource.org/licenses/GPL-3.0 GNU General Public License, version 3 (GPL-3.0)
  * @version     7.4.1.0
- * @package     Tiger
+ * @package     Tigra
  */
 class Router
 {
@@ -73,7 +73,7 @@ class Router
 
     /**
      * @var Core
-     * Needed for injecting tiger_core into the Framework
+     * Needed for injecting tigra_core into the Framework
      */
     private Core $Core;
 

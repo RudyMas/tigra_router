@@ -1,6 +1,6 @@
 {
-  "name": "tiger/router",
-  "description": "PHP Class Router for the Tiger Framework",
+  "name": "tigra/router",
+  "description": "PHP Class Router for the Tigra Framework",
   "type": "library",
   "license": "GPL-3.0-or-later",
   "authors": [
@@ -21,7 +21,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Tiger\\": "src/"
+      "Tigra\\": "src/"
     }
   }
 }
